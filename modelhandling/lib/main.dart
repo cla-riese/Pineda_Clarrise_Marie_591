@@ -1,10 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:modelhandling/screen/dashboard_screen.dart';
-import 'package:modelhandling/screen/login_screen.dart';
-import 'package:modelhandling/screen/product_screen.dart';
-import 'package:modelhandling/screen/signup_screen.dart';
-import 'package:modelhandling/screen/students_screen.dart';
+import 'package:modelhandling/screen/chat_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 
@@ -47,7 +43,7 @@ class MyApp extends StatelessWidget {
 
       ),
 
-      home: const LoginPage(),
+      home: const ChatPage(username: 'Cla'),
 
     );
 
